@@ -5,6 +5,9 @@ def nyc_pigeon_organizer(data)
     value.each do |attribute, names|
       names.each do |bird|
         unless hsh[bird]
-          
+          hsh[bird] = {}
+        end
+        
+        unless 
   
 end
