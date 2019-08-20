@@ -11,5 +11,8 @@ def nyc_pigeon_organizer(data)
         unless hsh[bird][key]
           hsh[bird][key] = []
         end
+      end
+    end
+  end
   
 end
