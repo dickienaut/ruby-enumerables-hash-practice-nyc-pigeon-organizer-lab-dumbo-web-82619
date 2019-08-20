@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
           hsh[bird][key] = []
         end
         
-        hsh
+        hsh[bird][key]
       end
     end
   end
